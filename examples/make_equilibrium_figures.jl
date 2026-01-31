@@ -1,4 +1,4 @@
-include("/Users/jo/ROCHE/src/RocheEllipsoid.jl")
+include("../src/RocheEllipsoid.jl")
 using CairoMakie
 using Makie.Colors
 using Printf

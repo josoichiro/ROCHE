@@ -1,5 +1,5 @@
 include("../src/stability.jl")   # potential.jl も内部で include されます
-include("/Users/jo/ROCHE/src/RocheEllipsoid.jl")  # ←ファイル名は適宜
+include("../src/RocheEllipsoid.jl")  # ←ファイル名は適宜
 using CairoMakie
 using Makie.Colors
 using .RocheEllipsoid
